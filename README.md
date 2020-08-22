@@ -45,6 +45,7 @@ Task 9: Loading and Evaluating our Model
 
 
 #### Model Training:
+
 Loaded in pre-trained BERT model, encode(To Convert text into numerical data) it with custom Output layer.
 
 #### Performance Metrics used:
@@ -55,9 +56,7 @@ Used F-1 score metrics, since their is severe class imbalance in the dataset. Fo
 
 #### Results:
 
-Got accuracy of 97.78% on validation dataset.
 
-Final Results in one batch, on validation dataset is shown below-
 
 ![alt text](https://github.com/rickhagwal/Covid19_Image_classification/blob/master/images/final_res.PNG)
 
@@ -68,4 +67,6 @@ BERT can be adapted to do question-answering, multiple choice, sentence completi
 Problems are:
 
 1.) It's Speed. BERT can be slow for production.
+
 2.) It might have biases, as data it's trained on is from Internet i.e., Internet data might more provide data that represnts wealthier countries more than the poorer ones. e.g., data might be more available from countries like- U.S., U.K. compared to South Africa or Zimbabwe.
+
