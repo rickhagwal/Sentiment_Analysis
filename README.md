@@ -5,18 +5,18 @@ Sentiment Analysis with Deep Learning of Twitter Smile emotion dataset, using BE
 
 Perform Sentiment Analysis, to classify the emotion of tweets w.r.t. British museums, using pretrained BERT model.
 
+#### What is BERT?
+
+BERT is a highly used Machine Learning model in NLP(Natural Language Processing) subspace. It is a large scale model that has transformers inside it. It's an advancement of RNN (Recurrent Neural Network) i.e., It's able to parallelize processing and training at inference (similar to CNN, where, input size is fixed). As earlier in RNN, we might have to process each word independently and now, we can do things in parallel. And, that's the real goal. BERT is trained on unsupervised data, i.e., data with no labels, from a huge corpus of data present over Intenet.
+
+![alt text](https://github.com/rickhagwal/Bert_Sentiment_Analysis/blob/master/images/BERT_diagrams.png)
+
 #### Dataset:
 
 Wang, Bo; Tsakalidis, Adam; Liakata, Maria; Zubiaga, Arkaitz; Procter, Rob; Jensen, Eric (2016): [SMILE Twitter Emotion dataset] (https://doi.org/10.6084/m9.figshare.3187909.v2)
 It contains collection of tweets of British Museums and each tweet has been labelled, based on the emotion inside that tweet.
 
 ![alt text](https://github.com/rickhagwal/Bert_Sentiment_Analysis/blob/master/images/actual_labels.PNG)
-
-#### What is BERT?
-
-BERT is a highly used Machine Learning model in NLP(Natural Language Processing) subspace. It is a large scale model that has transformers inside it. It's an advancement of RNN (Recurrent Neural Network) i.e., It's able to parallelize processing and training at inference (similar to CNN, where, input size is fixed). As earlier in RNN, we might have to process each word independently and now, we can do things in parallel. And, that's the real goal. BERT is trained on unsupervised data, i.e., data with no labels, from a huge corpus of data present over Intenet.
-
-![alt text](https://github.com/rickhagwal/Covid19_Image_classification/blob/master/images/final_res.PNG)
 
 #### Technologies and Libraries used:
 HuggingFace(It's a company that has developed Transformers, whose methods can be used within PyTorch, TensoFlow 2.0), 
