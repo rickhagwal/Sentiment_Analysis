@@ -23,6 +23,27 @@ BERT
 Pandas
 NumPy
 
+#### Project Outline:
+
+Task 1: Exploratory Data Analysis and Preprocessing
+
+Task 2: Training/Validation Split
+
+Task 3: Loading Tokenizer and Encoding our Data
+
+Task 4: Setting up BERT Pretrained Model
+
+Task 5: Creating Data Loaders
+
+Task 6: Setting Up Optimizer and Scheduler
+
+Task 7: Defining our Performance Metrics
+
+Task 8: Creating our Training Loop
+
+Task 9: Loading and Evaluating our Model
+
+
 #### Model Training:
 Loaded in pre-trained BERT model, encode(To Convert text into numerical data) it with custom Output layer.
 
