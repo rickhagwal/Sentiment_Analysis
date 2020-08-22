@@ -1,12 +1,13 @@
 # Sentiment Analysis with Deep Learning, using BERT
-Sentiment Analysis with Deep Learning of Twitter Smile emotion dataset
+Sentiment Analysis with Deep Learning of Twitter Smile emotion dataset, using BERT
 
 #### Objective:
 
 Perform Sentiment Analysis, to classify the emotion of tweets w.r.t. British museums, using pretrained BERT model.
 
 #### Dataset:
-[Smile Twitter Emotion Dataset](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database)
+
+Wang, Bo; Tsakalidis, Adam; Liakata, Maria; Zubiaga, Arkaitz; Procter, Rob; Jensen, Eric (2016): [SMILE Twitter Emotion dataset] (https://doi.org/10.6084/m9.figshare.3187909.v2)
 It contains collection of tweets of British Museums and each tweet has been labelled, based on the emotion inside that tweet.
 
 #### What is BERT?
@@ -18,15 +19,16 @@ BERT is a highly used Machine Learning model in NLP(Natural Language Processing)
 #### Technologies and Libraries used:
 HuggingFace(It's a company that has developed Transformers, whose methods can be used within PyTorch, TensoFlow 2.0), 
 PyTorch
-BERT 
+BERT
+Pandas
+NumPy
 
 #### Model Training:
 Loaded in pre-trained BERT model, encode(To Convert text into numerical data) it with custom Output layer.
 
-
 #### Performance Metrics used:
 
-Used F-1 score metrics, since their is severe class imbalance in dataset. For that, we used stratified approach while splitting dataset into train and validation.
+Used F-1 score metrics, since their is severe class imbalance in the dataset. For that, we used stratified approach while splitting dataset into train and validation.
 
 ![alt text](https://github.com/rickhagwal/Covid19_Image_classification/blob/master/images/final_res.PNG)
 
@@ -45,4 +47,4 @@ BERT can be adapted to do question-answering, multiple choice, sentence completi
 Problems are:
 
 1.) It's Speed. BERT can be slow for production.
-2.) It might have biases, as data it's trained on is from Internet i.e., Internet data might more provide data that represnts wealthier countries more than the poorer ones. e.g., data might be more available from countries like- U.S., U.K. compared to SOuth Africa or Zimbabwe.
+2.) It might have biases, as data it's trained on is from Internet i.e., Internet data might more provide data that represnts wealthier countries more than the poorer ones. e.g., data might be more available from countries like- U.S., U.K. compared to South Africa or Zimbabwe.
