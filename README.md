@@ -1,5 +1,5 @@
 # Sentiment Analysis with Deep Learning, using BERT
-Sentiment Analysis with Deep Learning of Twitter Smile emotion dataset, using BERT
+Sentiment Analysis with Deep Learning of Twitter Smile emotion dataset, using BERT, HuggingFace, PyTorch, to classify tweets emotions as variant smileys, and evaluated model via F-1 score metrics.
 
 #### Objective:
 
@@ -10,6 +10,13 @@ Perform Sentiment Analysis, to classify the emotion of tweets, using pretrained 
 BERT is a highly used Machine Learning model in NLP(Natural Language Processing) subspace. It is a large scale model that has transformers inside it. It's an advancement of RNN (Recurrent Neural Network) i.e., It's able to parallelize processing and training at inference (similar to CNN, where, input size is fixed). As earlier in RNN, we might have to process each word independently and now, we can do things in parallel. And, that's the real goal. BERT is trained on unsupervised data, i.e., data with no labels, from a huge corpus of data present over Intenet.
 
 ![alt text](https://github.com/rickhagwal/Bert_Sentiment_Analysis/blob/master/images/BERT_diagrams.png)
+
+
+[Original BERT paper](https://arxiv.org/abs/1810.04805)
+
+[HuggingFace documantation](https://huggingface.co/transformers/model_doc/bert.html)
+
+[BERT documentation](https://en.wikipedia.org/wiki/BERT_(language_model))
 
 #### Dataset:
 
