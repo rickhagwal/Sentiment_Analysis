@@ -10,6 +10,8 @@ Perform Sentiment Analysis, to classify the emotion of tweets w.r.t. British mus
 Wang, Bo; Tsakalidis, Adam; Liakata, Maria; Zubiaga, Arkaitz; Procter, Rob; Jensen, Eric (2016): [SMILE Twitter Emotion dataset] (https://doi.org/10.6084/m9.figshare.3187909.v2)
 It contains collection of tweets of British Museums and each tweet has been labelled, based on the emotion inside that tweet.
 
+![alt text](https://github.com/rickhagwal/Bert_Sentiment_Analysis/blob/master/images/actual_labels.PNG)
+
 #### What is BERT?
 
 BERT is a highly used Machine Learning model in NLP(Natural Language Processing) subspace. It is a large scale model that has transformers inside it. It's an advancement of RNN (Recurrent Neural Network) i.e., It's able to parallelize processing and training at inference (similar to CNN, where, input size is fixed). As earlier in RNN, we might have to process each word independently and now, we can do things in parallel. And, that's the real goal. BERT is trained on unsupervised data, i.e., data with no labels, from a huge corpus of data present over Intenet.
@@ -46,19 +48,20 @@ Task 9: Loading and Evaluating our Model
 
 #### Model Training:
 
-Loaded in pre-trained BERT model, encode(To Convert text into numerical data) it with custom Output layer.
+Loaded in pre-trained BERT model, encode(To Convert text into numerical data) it with custom Output layer. And then, split datset into train and validation datsets, using stratified approach.
+
 
 #### Performance Metrics used:
 
 Used F-1 score metrics, since their is severe class imbalance in the dataset. For that, we used stratified approach while splitting dataset into train and validation.
 
-![alt text](https://github.com/rickhagwal/Covid19_Image_classification/blob/master/images/final_res.PNG)
+![alt text](https://github.com/rickhagwal/Bert_Sentiment_Analysis/blob/master/images/after%20stratify.PNG)
 
 #### Results:
 
+Results are pretty impressive , as can be seen below-
 
-
-![alt text](https://github.com/rickhagwal/Covid19_Image_classification/blob/master/images/final_res.PNG)
+![alt text](https://github.com/rickhagwal/Bert_Sentiment_Analysis/blob/master/images/Output.PNG)
 
 #### BERT Scope and Problems:
 
