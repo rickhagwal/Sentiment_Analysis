@@ -17,16 +17,11 @@ BERT is a highly used Machine Learning model in NLP(Natural Language Processing)
 ![alt text](https://github.com/rickhagwal/Covid19_Image_classification/blob/master/images/final_res.PNG)
 
 #### Technologies and Libraries used:
-HuggingFace(It's a company that has developed Transformers, whose methods can be used within PyTorch, TensoFlow 2.0)
-
-PyTorch
-
-BERT
-
-Pandas
-
+HuggingFace(It's a company that has developed Transformers, whose methods can be used within PyTorch, TensoFlow 2.0), 
+PyTorch,
+BERT,
+Pandas,
 NumPy
-
 
 #### Project Outline:
 
