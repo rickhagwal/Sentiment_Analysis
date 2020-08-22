@@ -3,7 +3,7 @@ Sentiment Analysis with Deep Learning of Twitter Smile emotion dataset, using BE
 
 #### Objective:
 
-Perform Sentiment Analysis, to classify the emotion of tweets w.r.t. British museums, using pretrained BERT model.
+Perform Sentiment Analysis, to classify the emotion of tweets, using pretrained BERT model.
 
 #### What is BERT?
 
