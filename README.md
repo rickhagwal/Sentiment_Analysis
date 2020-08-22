@@ -41,15 +41,14 @@ Task 6: Setting Up Optimizer and Scheduler
 
 Task 7: Defining our Performance Metrics
 
-Task 8: Creating our Training Loop
+Task 8: Creating Training Loop
 
 Task 9: Loading and Evaluating our Model
 
 
 #### Model Training:
 
-Loaded in pre-trained BERT model, encode(To Convert text into numerical data) it with custom Output layer. And then, split datset into train and validation datsets, using stratified approach.
-
+Loaded in pre-trained BERT model, encode(To Convert text into numerical data) it with custom Output layer. And then, split datset into train and validation datsets, using stratified approach, to preserve classes in same ratio in both training and test set. Here used, test set as 15%. Thus, for each class, 85% data should be in train dataset and 15% data should be in valid dataset.
 
 #### Performance Metrics used:
 
